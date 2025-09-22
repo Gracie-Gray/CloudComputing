@@ -12,7 +12,7 @@ The goal was to demonstrate cloud provisioning, basic DevOps practices, and reli
 - **Instance Type:** t2.micro (free-tier eligible, cost efficient for small workloads)
 - **AMI:** Ubuntu LTS (could have also used Amazon Linux 2)
 - **Runtime:** Node.js with Express
-- **Service Management:** systemd unit file ensures auto-restart and survival across reboots
+- **Service Management:** systemd unit file
 - **Access:** 
   - HTTP traffic exposed via Security Group (port 80)
   - SSH restricted to my IP
@@ -28,7 +28,7 @@ The goal was to demonstrate cloud provisioning, basic DevOps practices, and reli
   - Lightweight and simple for building small REST services
   - Quick setup
   - Express provides built-in routing and middleware
-- Alternatives like Python/Flask were possible, but Node.js aligned with the provided starter code.
+- Alternatives like Python/Flask were allowed, but Node.js was used as it was included with the provided starter code.
 
 ### Instance & Networking
 - **t2.micro** chosen to minimize cost while meeting performance needs.
@@ -67,7 +67,7 @@ Examples:
 - SSH limited to a single trusted IP via Security Group.
 - Service runs under the default user.
 - No unnecessary ports exposed.
-- System updates applied before installing runtime (`apt update`/`yum update`).
+- System updates applied before installing runtime 
 
 ---------------------------------------------------------------------------------------
 
