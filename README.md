@@ -22,3 +22,6 @@ curl "http://localhost:8080/convert?lbs=150"
 3. Clone or copy this repo to EC2 instance.
 4. Run `npm install && node server.js`.
 5. Adjust Security Group to allow inbound TCP/8080 (or use NGINX reverse proxy for port 80).
+
+## Notes
+- Refer to screenshots for curl examples
