@@ -80,14 +80,9 @@ Examples:
 
 ## Cleanup & Cost Hygiene
 - Instance stopped/terminated after project submission.
-- Associated Security Group, key pair, and EBS volumes cleaned up.
 - Used free-tier resources to avoid unnecessary billing.
 
 ---------------------------------------------------------------------------------------
 ## Notes
 - Used MobaXterm for SSH connectivity.
 - Chose to follow the provided Node.js/Express code with minimal modifications.
-- Future improvements could include:
-  - HTTPS with Let’s Encrypt (via NGINX + Certbot)
-  - Log rotation (e.g., logrotate) for long-term uptime
-  - Deployment automation with cloud-init or scripts
